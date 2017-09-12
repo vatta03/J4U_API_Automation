@@ -1,0 +1,18 @@
+{
+
+  "nimbus-qa1":
+  {
+      "username": "testauto_20170710154817@example.com",
+      "password": "testpwd1",
+      "uri": "https://auth2-q.safeway.com/opensso/identity/authenticate"
+  },
+
+  "nimbus-qa2":
+  {
+      "username": "testauto_20170710154817@example.com",
+      "password": "testpwd1",
+      "uri": "https://auth-q.safeway.com/opensso/identity/authenticate"
+
+  }
+
+}

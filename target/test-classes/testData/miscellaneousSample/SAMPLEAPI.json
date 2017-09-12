@@ -1,0 +1,93 @@
+{
+
+  "nimbus-qa1":
+  {
+
+    "VerifyDesiredCookeTest":
+    [
+      {
+        "execute": "yes",
+        "Url": "http://jsonplaceholder.typicode.com/photos",
+        "storeID": "95476"
+      },
+      {
+        "execute": "no",
+        "Url": "http://jsonplaceholder.typicode.com/photos",
+        "storeID": "9588"
+      }
+    ],
+    "VerifyElementSingleValueTest":
+    [
+      {
+        "execute": "no",
+        "Url": "http://services.groupkt.com/country/get/iso2code/us"
+      }
+
+    ],
+    "VerifyGetWeatherReportByIdTest":
+    [
+      {
+        "execute": "yes",
+        "Uri": "http://samples.openweathermap.org/data/2.5/weather",
+        "id": "2172797",
+        "appid": "b1b15e88fa797225412429c1c50c122a1"
+      }
+    ]
+
+  },
+
+  "nimbus-qa2": {
+
+    "VerifyDesiredCookeTest":
+    [
+      {
+        "execute": "yes",
+        "Url": "http://jsonplaceholder.typicode.com/photos",
+        "storeID": "95476"
+      },
+      {
+        "execute": "yes",
+        "Url": "http://jsonplaceholder.typicode.com/photos",
+        "storeID": "9588"
+      }
+    ],
+    "VerifyElementSingleValueTest":
+    [
+      {
+        "execute": "yes",
+        "Url": "http://services.groupkt.com/country/get/iso2code/us"
+      }
+
+    ],
+    "VerifyURLElementValueTest":
+    [
+      {
+        "execute": "yes",
+        "Url": "http://jsonplaceholder.typicode.com/photos/1"
+      }
+
+    ],
+    "VerifyGetWeatherReportByIdTest":
+    [
+      {
+        "execu        "Uri": "http://samples.openweathermap.org/data/2.5/weather",
+      te": "yes",
+        "id": "2172797",
+        "appid": "b1b15e88fa797225412429c1c50c122a1"
+
+      }
+    ],
+    "VerifyPostCallTest":
+    [
+      {
+        "execute": "yes",
+        "Uri": "http://localhost:3000/posts",
+        "id": "2",
+        "title": "test",
+        "author": "kiran"
+
+      }
+    ]
+
+  }
+}

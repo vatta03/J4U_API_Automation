@@ -1,0 +1,33 @@
+{
+
+  "nimbus-qa1":
+  {
+
+    "VerifyGetOfferDetailsByProgramTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "no",
+        "uri": "https://nimbus-qa1.safeway.com/J4UProgram1/services/internal/offer/program/{programCd}/definitions"
+       }
+
+    ]
+
+  },
+
+  "nimbus-qa2":
+  {
+
+    "VerifyGetOfferDetailsByProgramTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "no",
+        "uri": "https://nimbus-qa1.safeway.com/J4UProgram1/services/internal/offer/program/{programCd}/definitions"
+
+      }
+
+    ]
+  }
+  
+}

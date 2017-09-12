@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Offer Definitions API Validation" parallel="false" thread-count="10" verbose="1">
+
+    <test name="Offer Definitions API Validation">
+        <parameter name="apiName" value="OFFERDEFINITIONSAPI" />
+        <parameter name="apiGroupName" value="coreServices" />
+        <parameter name="currentTestEnvironment" value="nimbus-qa1" />
+        <!--<parameter name="currentTestEnvironment" value="nimbus-qa2" />-->
+        <!--<parameter name="currentTestEnvironment" value="QA2" />-->
+        <!--<parameter name="currentTestEnvironment" value="QA1" />-->
+        <!--<parameter name="currentTestEnvironment" value="QAI"/>-->
+        <!--<parameter name="currentTestEnvironment" value="Prod" />-->
+        <classes>
+            <class name="com.albertsons.apiautomation.j4uAPI.automation.apiTests.coreServices.offerDefinitionsAPI.VerifyGetOfferDetailsByProgramTest"/>
+        </classes>
+    </test>
+
+</suite>
+
+

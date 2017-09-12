@@ -1,0 +1,36 @@
+{
+
+  "nimbus-qa1":
+  {
+
+    "VerifyCDAllocationsTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "yes",
+        "uri": "https://nimbus-qa1.safeway.com/J4UProgram1/services/program/CD/offer/allocations",
+        "storeId":1502
+
+      }
+
+    ]
+
+  },
+
+  "nimbus-qa2":
+  {
+
+    "VerifyCDAllocationsTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "yes",
+        "uri": "https://nimbus-qa2.safeway.com/J4UProgram1/services/program/CD/offer/allocations",
+        "storeId":1502
+      }
+
+    ]
+  }
+
+
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--suppress ALL -->
+<suite name="J4U API Automation - ALL" verbose="1">
+
+    <listeners>
+        <listener class-name="com.albertsons.apiautomation.j4uAPI.automation.common.TestListener"/>
+    </listeners>
+
+    <suite-files>
+        <!-- Core Services -->
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\CoreServices_CategoryList.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\CoreServices_OfferDefinition.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\CoreServices_PDContent.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\CoreServices_OfferDefinitions.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\CoreServices_ShoppedStores.xml"/>
+
+        <!-- Gallery Services -->
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\GalleryServices_OfferAllocations.xml"/>
+
+        <!-- My List Services -->
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\MyListServices_mobileServices.xml"/>
+
+        <!--<suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\RegistrationAPI\APIValidation_Registration.xml"/>-->
+        <!--<suite-file path= "src\test\apiTestsExecutionDriver\apiTestSuites\miscllaneous-Sample\SampleAPI\APIValidation_Sample.xml"/>-->
+
+
+    </suite-files>
+
+</suite>

@@ -1,0 +1,35 @@
+{
+
+  "nimbus-qa1":
+  {
+
+    "VerifyClippingServiceTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "yes",
+        "uri": "https://nimbus-qa1.safeway.com/Clipping1/services/clip/items",
+        "storeId":2856
+      }
+    ]
+
+  },
+
+  "nimbus-qa2":
+  {
+
+    "VerifyClippingServiceTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "yes",
+        "uri": "https://nimbus-qa2.safeway.com/Clipping1/services/clip/items",
+        "storeId":1502
+
+      }
+
+    ]
+  }
+
+  
+}

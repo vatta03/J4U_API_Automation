@@ -1,0 +1,32 @@
+{
+
+  "VerifyRegisterUserTest": {
+
+    "execute": "Yes",
+	"Url": "http://ngcp-qa2.safeway.com/",
+    "banner": "safeway",
+    "source": "RSSWEB",
+    "userid": "testauto_20170728135876@example.com",
+    "confUserid" : "testauto_20170728135876@example.com",
+    "zipCode": "95476",
+    "confPwd": "testpwd1",
+    "password": "testpwd1",
+    "rememberMe": "Y",
+    "emailOffers": "Y",
+    "clubCardNumber": "40000000384",
+    "securityAnswer": "test",
+    "securityQuestion": "Q5"
+  },
+  
+  "NREG002": {
+    "execute": "Yes",
+	"Url": "http://ngcp-qa2.safeway.com/",
+    "Banner": "safeway",
+    "FirstName": "Aloke",
+    "LastName": "burger",
+	"EmailAddress": "rss_randalls_NREG002@example.com",
+	"Password": "@lt12345"
+	
+  }
+  
+}

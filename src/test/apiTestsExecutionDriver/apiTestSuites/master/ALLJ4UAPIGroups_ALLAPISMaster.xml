@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--suppress ALL -->
+<suite name="J4U API Automation - ALL" verbose="1">
+
+    <listeners>
+        <listener class-name="com.albertsons.apiautomation.j4uAPI.automation.common.TestListener"/>
+    </listeners>
+
+    <suite-files>
+
+         <!--Core Services-->
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\CoreServices_CategoryListAPI.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\CoreServices_PDContentAPI.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\CoreServices_OfferDefinitionAPI.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\CoreServices_OfferDefinitionsAPI.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\CoreServices_ShoppedStoresAPI.xml"/>
+
+        <!-- Gallery Services -->
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\GalleryServices_mobileAllocationsMfgAPI.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\GalleryServices_mobileAllocationsPdAPI.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\GalleryServices_offerAllocationsCdAPI.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\GalleryServices_offerAllocationsYcsAPI.xml"/>
+
+        <!-- My List Services -->
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\MyListServices_MyListCountAPI.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\MyListServices_MyListMobileAPI.xml"/>
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\MyListServices_MyListWebAPI.xml"/>
+
+        <!-- Clipping Services -->
+        <suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\master\clipping_ClippingAPI.xml"/>
+
+
+        <!--<suite-file path="src\test\apiTestsExecutionDriver\apiTestSuites\RegistrationAPI\APIValidation_RegistrationAPI.xml"/>-->
+        <!--<suite-file path= "src\test\apiTestsExecutionDriver\apiTestSuites\miscllaneous-Sample\SampleAPI\APIValidation_Sample.xml"/>-->
+
+
+    </suite-files>
+
+</suite>

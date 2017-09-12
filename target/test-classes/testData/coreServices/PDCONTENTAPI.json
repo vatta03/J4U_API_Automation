@@ -1,0 +1,34 @@
+{
+
+  "nimbus-qa1":
+  {
+
+    "VerifyGetPDContentTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "no",
+        "uri": "https://nimbus-qa1.safeway.com/J4UProgram1/services/personalizedcontent",
+        "storeId": "1502"
+      }
+
+    ]
+
+  },
+
+  "nimbus-qa2":
+  {
+
+    "VerifyGetPDContentTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "no",
+        "uri": "https://nimbus-qa1.safeway.com/J4UProgram1/services/personalizedcontent",
+        "storeId": "1502"
+      }
+
+    ]
+  }
+  
+}

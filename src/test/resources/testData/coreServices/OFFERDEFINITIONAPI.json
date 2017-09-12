@@ -1,0 +1,36 @@
+{
+
+  "nimbus-qa1":
+  {
+
+    "VerifyGetOfferDetailsByIDTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "no",
+        "uri": "https://nimbus-qa1.safeway.com/J4UProgram1/services/offer/{offerId}/definition/cacheTs/{offerTs}",
+        "offerID": "282865",
+        "offerTs": "1503381680000"
+      }
+
+    ]
+
+  },
+
+  "nimbus-qa2":
+  {
+
+    "VerifyGetOfferDetailsByIDTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "no",
+        "uri": "https://nimbus-qa1.safeway.com/J4UProgram1/services/offer/{offerId}/definition/cacheTs/{offerTs}",
+        "offerID": "282865",
+        "offerTs": "1503381680000"
+      }
+
+    ]
+  }
+
+}

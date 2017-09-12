@@ -1,0 +1,34 @@
+{
+
+  "nimbus-qa1":
+  {
+
+      "VerifyGetCategoriesTest":
+      [
+        {
+          "execute": "yes",
+          "authenticationRequired": "no",
+          "uri": "https://nimbus-qa1.safeway.com/J4UProgram1/services/offer/categories",
+          "superoffer": "1502"
+        }
+
+      ]
+
+  },
+  "nimbus-qa2":
+  {
+
+      "VerifyGetCategoriesTest":
+      [
+        {
+          "execute": "yes",
+          "authenticationRequired": "no",
+          "uri": "https://nimbus-qa1.safeway.com/J4UProgram1/services/offer/categories",
+          "superoffer": "1502"
+
+        }
+
+      ]
+  }
+
+}

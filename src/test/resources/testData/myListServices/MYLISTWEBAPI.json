@@ -1,0 +1,40 @@
+{
+
+  "nimbus-qa1":
+  {
+
+    "VerifyMyListWebServiceTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "yes",
+        "uri": "https://nimbus-qa1.safeway.com/emlss/services/integratedshoppinglist/list",
+        "storeId": "1502",
+        "X-SWY_API_KEY":"emjou",
+        "X-SWY_BANNER":"safeway",
+        "X-SWY_VERSION":1.0
+
+      }
+
+    ]
+
+  },
+
+  "nimbus-qa2":
+  {
+
+    "VerifyMyListWebServiceTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "yes",
+        "uri": "https://nimbus-qa2.safeway.com/emlss/services/integratedshoppinglist/list",
+        "storeId": "1502"
+
+      }
+
+    ]
+
+  }
+
+}

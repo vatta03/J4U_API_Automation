@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="OfferAllocations_CD_API_Validation" parallel="false" thread-count="10" verbose="1">
+
+    <test name="Offer Allocations CD API Validation">
+
+        <parameter name="apiName" value="OFFERALLOCATIONSCD" />
+        <parameter name="apiGroupName" value="galleryServices" />
+        <parameter name="currentTestEnvironment" value="nimbus-qa1" />
+        <!--<parameter name="currentTestEnvironment" value="nimbus-qa2" />-->
+        <!--<parameter name="currentTestEnvironment" value="QA2" />-->
+        <!--<parameter name="currentTestEnvironment" value="QA1" />-->
+        <!--<parameter name="currentTestEnvironment" value="QAI"/>-->
+        <!--<parameter name="currentTestEnvironment" value="Prod" />-->
+
+        <classes>
+            <class name="com.albertsons.apiautomation.j4uAPI.automation.apiTests.galleryServices.offerAllocationsCdAPI.VerifyCDAllocationsTest"/>
+        </classes>
+    </test>
+
+</suite>
+
+

@@ -1,0 +1,38 @@
+{
+
+  "nimbus-qa1":
+  {
+
+    "VerifyMobileAllocationsMfgServiceTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "yes",
+        "uri": "https://nimbus-qa1.safeway.com/emmd/service/gallery/offer/mfg",
+        "storeId":1502,
+        "SWY_API_KEY":"emjou",
+        "X-SWY_BANNER":"safeway",
+        "X-SWY_VERSION":1.0
+      }
+
+    ]
+
+  },
+
+  "nimbus-qa2":
+  {
+
+    "VerifyMobileAllocationsMfgServiceTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "yes",
+        "uri": "https://nimbus-qa2.safeway.com/emmd/service/gallery/offer/mfg",
+        "storeId":1502
+      }
+
+    ]
+  }
+
+
+}

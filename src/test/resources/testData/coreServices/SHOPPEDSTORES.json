@@ -1,0 +1,32 @@
+{
+
+  "nimbus-qa1":
+  {
+
+    "VerifyShoppedStoresTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "yes",
+        "uri": "https://nimbus-qa1.safeway.com/emlsm/services/customer/shoppedStores"
+       }
+
+    ]
+
+  },
+
+  "nimbus-qa2":
+  {
+
+    "VerifyShoppedStoresTest":
+    [
+      {
+        "execute": "yes",
+        "authenticationRequired": "yes",
+        "uri": "https://nimbus-qa1.safeway.com/emlsm/services/customer/shoppedStores"
+       }
+
+    ]
+  }
+  
+}
